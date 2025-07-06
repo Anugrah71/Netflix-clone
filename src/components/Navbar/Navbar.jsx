@@ -23,11 +23,12 @@ export const Navbar = () => {
         <img src={search_icon} className="icons" alt="" />
         <p>Children</p>
         <img src={bell_icon} className="icons" alt="" />
-        <div className="navbar-profile"></div>
+        <div className="navbar-profile">
         <img src={profile_img} className="profile" alt="" />
         <img src={caret_icon} className="" alt="" />
         <div className="dropdown">
             <p>Sign Out of Netflix</p>
+        </div>
         </div>
       </div>
     </div>
